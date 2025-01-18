@@ -58,8 +58,14 @@ jobs:
             platform: "manylinux"
             arch: "aarch64"
           - os: ubuntu-24.04-arm
+            platform: "manylinux"
+            arch: "armv7l"
+          - os: ubuntu-24.04-arm
             platform: "musllinux"
             arch: "aarch64"
+          - os: ubuntu-24.04-arm
+            platform: "musllinux"
+            arch: "armv7l"
           # windows
           - os: windows-2019
             platform: "win"
